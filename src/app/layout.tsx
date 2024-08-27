@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>My Next.js App with MUI</title>
+        <title>Developer History</title>
       </head>
       <body>
         <ThemeProvider theme={theme}>
