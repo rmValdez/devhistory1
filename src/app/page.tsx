@@ -1,11 +1,14 @@
 "use client"; // Ensure this file is treated as a Client Component
 
-import React from 'react';
-import { Container, Typography, Button } from '@mui/material';
+import React, { Fragment } from 'react';
+import { Typography, Button } from '@mui/material';
+import Main from '@/appComponent/Main';
 
 export default function Home() {
   return (
-    <Container maxWidth="sm">
+    <Main>
+      <Fragment>
+
       <Typography variant="h2" component="h1" gutterBottom>
         Welcome to My Next.js App with MUI
       </Typography>
@@ -16,6 +19,7 @@ export default function Home() {
       <Button variant="contained" color="primary">
         Get Started
       </Button>
-    </Container>
+      </Fragment>
+    </Main>
   );
 }
